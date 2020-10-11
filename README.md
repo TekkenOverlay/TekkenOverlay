@@ -6,8 +6,11 @@ We take no responsibility for misuse of this software in a competetive setting s
 
 ## Install
 Download it [here](https://github.com/TekkenOverlay/TekkenOverlay/releases/latest)
+
 Extract ZIP to anywhere
+
 Run tekken-overlay-run.exe
+
 Run Tekken
 
 ## Donate
