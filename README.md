@@ -24,9 +24,10 @@ from inside the .zip archive. Extract your .zip archive as instructed in the
 [Install section](https://github.com/TekkenOverlay/TekkenOverlay#install) and
 then run the tekken-overlay-run.exe file.
 
-### Render scale issue
+### Rendering scale issue
 
-If you are experiencing strange looking overlay, check your render scale is set to 100%, when it is set to anything other than 100%
+If you are experiencing strange looking overlay, check that your rendering scale is set to 100.
+- Tekken 7 Main menu -> Settings -> Graphics Settings -> Rendering Scale -> Set to 100
 
 Donate
 ------
