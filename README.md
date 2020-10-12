@@ -35,5 +35,5 @@ Donate
 Special thanks to everyone who has contributed to this project. Over \$10000
 worth of man hours has gone into this project to bring it to the tekken
 community for free. A donation would be very much appreciated to keep the
-project maintained and potentially new features.  
+project maintained and for potentially adding new features.  
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=tekkenoverlay%40gmail.com&currency_code=EUR)
