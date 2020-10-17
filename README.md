@@ -19,10 +19,16 @@ Problems
 
 ### Injecting DLL... FAIL!
 
+#### Reason #1
+
 This might mean you haven’t extracted .zip archive and running your .exe file
 from inside the .zip archive. Extract your .zip archive as instructed in the
 [Install section](https://github.com/TekkenOverlay/TekkenOverlay#install) and
 then run the tekken-overlay-run.exe file.
+
+#### Reason #2
+
+Another reason you can get this error is because of VC++ Redistributables installed. Install VC++ Redistributables 2015-2019 from [here](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads). This should fix the `Injecting DLL... FAIL!` error.
 
 ### Rendering scale issue
 
