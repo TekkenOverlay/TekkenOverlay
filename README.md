@@ -31,10 +31,10 @@ then run the *tekken-overlay-run.exe* file.
 
 Another reason you can get this error is because of VC++ Redistributables installed on your machine. Install VC++ Redistributables 2015-2019 from [here](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads). This should fix the `Injecting DLL... FAIL!` error.
 
-### Rendering scale issue
+### Not working overlay
 
-If you are experiencing strange looking overlay, check that your rendering scale is set to 100.
-- Tekken 7 Main menu -> Settings -> Graphics Settings -> Rendering Scale -> Set to 100
+If framedata and/or hitboxes don't show up but game information and throw counter work, check that your rendering scale is set to 100.
+Tekken 7 Main menu -> Settings -> Graphics Settings -> Rendering Scale -> Set to 100
 
 Donate
 ------
