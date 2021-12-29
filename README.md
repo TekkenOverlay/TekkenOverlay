@@ -5,13 +5,14 @@ This software is intended for educational purposes only. The software is not to
 be used to gain competetive advantage. We take no responsibility for misuse of
 this software in a competitive setting.
 
-Install
+How to use
 -------
 
 Download and install VC++ 2015-2019 Redistributables(vc_redist.x64.exe file) from [here](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).  
 Download Tekken Overlay
-[here​​​](https://github.com/TekkenOverlay/TekkenOverlay/releases/latest).  
-Extract ZIP to anywhere.  
+[here​​​](https://github.com/TekkenOverlay/TekkenOverlay/releases/latest).
+Download the top .zip file.
+Extract zip to anywhere.  
 Run tekken-overlay-run.exe.  
 Run Tekken.
 
