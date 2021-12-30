@@ -36,6 +36,12 @@ Another reason you can get this error is because of VC++ Redistributables instal
 If framedata and/or hitboxes don't show up but game information and throw counter work, check that your rendering scale is set to 100.
 Tekken 7 Main menu -> Settings -> Graphics Settings -> Rendering Scale -> Set to 100
 
+### Windows Defender or any other antivirus deletes downloaded files
+
+Your antivirus software mistakenly thinks it's a virus because they don't really know if something is a virus or not. They just look at sets of functions the program uses and **assume** if something is a virus or not. You can read about false positives [here](https://www.tomsguide.com/news/what-are-false-positives-and-how-to-avoid-them) or just [google](https://www.google.com/search?q=Antivirus+false+positives) it yourself.
+
+You'll have to add the .zip file and/or the files inside the zip(after you extract it) to the exceptions of your antivirus.
+
 Donate
 ------
 
