@@ -52,6 +52,14 @@ Keep in mind that using any of these methods does not mean that Tekken Overlay d
 Using any of the methods above you are equally susceptible to anything that we could possibly put inside the `tekken-overlay.dll`.
 At the end of the day you have to trust our team that we will not put anything malicious inside the `tekken-overlay.dll`.
 
+### Linux Support
+
+People have reported that the injector doesn't work on Linux and they keep getting the `Injecting DLL... FAIL!` error.[DeadAndRottingSite](https://www.reddit.com/user/DeadAndRottingSite) [have reported on reddit](https://www.reddit.com/r/Tekken/comments/rr7mlz/tekken_7_network_lag_fixes_play_online_with/hqm4uqs/) that you can do this to make it work on Linux:
+* Use [Steam Tinker Launch](https://github.com/frostworx/steamtinkerlaunch). Install it depending on your distribution.
+* Set Steam Tinker as a Steam compatibility tool: https://github.com/frostworx/steamtinkerlaunch/wiki/Steam-Compatibility-Tool.
+* Set Tekken to run with it.
+* Open its settings menu as it launches, and point a Custom Command to the TekkenOverlay executable, with Use Custom Command and Inject Custom Command settings (optionally a couple seconds wait time so the game launches first, shouldn't be necessary).
+
 Donate
 ------
 
