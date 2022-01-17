@@ -9,9 +9,9 @@ How to use
 -------
 
 Download and install VC++ 2015-2019 Redistributables(vc_redist.x64.exe file) from [here](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).  
-Download Tekken Overlay
+Download Tekken Overlay.  
 [here​​​](https://github.com/TekkenOverlay/TekkenOverlay/releases/latest): Download the top `.zip` file.  
-Extract zip to anywhere.  
+Extract zip to anywhere: you need to actually extract the `.zip` archive and __not__ just double click it to open it in the explorer.  
 Run `tekken-overlay-run.exe`.  
 Run Tekken.
 
