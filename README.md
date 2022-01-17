@@ -43,11 +43,11 @@ If neither of the injectors worked and you still can't inject with neither `tekk
 
 Try injecting a [Hello World dll](https://github.com/carterjones/hello-world-dll) using a third-party injector to test that injection works on your machine in general. [Video Demonstration](https://user-images.githubusercontent.com/16989713/149820814-21394c83-0efa-4e68-a79e-388c6d049e51.mp4).
 
-If you get an error injecting the Hello World dll or if you don't see the Hello World message box after injection, then you have some problem on your machine. A possible fix is to install [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/) and [Windows DDK](https://docs.microsoft.com/en-US/windows-hardware/drivers/download-the-wdk#download-icon-step-3-install-windows-11-wdk). Both of these work on Windows 7 - 11 and will install missing dependencies, absence of which could cause the issue.
+If you get an error injecting the Hello World dll or if you don't see the Hello World message box after injection, then you have some problem on your machine and the default injection method doesn't work in general on your machine(and it should work). A possible fix is to install [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/) and [Windows DDK](https://docs.microsoft.com/en-US/windows-hardware/drivers/download-the-wdk#download-icon-step-3-install-windows-11-wdk). Both of these work on Windows 7 - 11 and will install missing dependencies, absence of which could cause the issue.
 
 #### Fix #5
 
-Another way to make the overlay work is to use a different injection method: make the overlay the dependency of the game and let the game load the overlay itself each game start. Follow [the wiki article](https://github.com/TekkenOverlay/TekkenOverlay/wiki/Making-the-game-automatically-load-the-overlay-on-the-game-start) on how to do it.
+Another way to make the overlay work is to use a different injection method: make the overlay a dependency of the game and let the game load the overlay itself each game start. Follow [the wiki article](https://github.com/TekkenOverlay/TekkenOverlay/wiki/Making-the-game-automatically-load-the-overlay-on-the-game-start) on how to do it.
 
 ### Not working framedata overlay
 
