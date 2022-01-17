@@ -20,18 +20,22 @@ Problems
 
 ### Injecting DLL... FAIL!
 
-#### Reason #1
+#### Fix #1
 
 This might mean you haven’t extracted `.zip` archive and running your `tekken-overlay-run.exe` file
 from inside the `.zip` archive. Extract your `.zip` archive as instructed in the
 [Install section](https://github.com/TekkenOverlay/TekkenOverlay#install) and
 then run the `tekken-overlay-run.exe` file.
 
-#### Reason #2
+#### Fix #2
 
 Another reason you can get this error is because VC++ Redistributables installed on your machine. Install VC++ Redistributables 2015-2019 from [here](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads). 
 
-### Not working overlay
+#### Fix #3
+
+Use a different injector and inject the `tekken-overlay.dll` file into the `TekkenGame-Win64-Shipping.exe` process using that third-party injector, such as [Extreme Injector](https://github.com/master131/ExtremeInjector/releases/latest). [Demonstration video on how to do it](https://user-images.githubusercontent.com/16989713/149813511-1225eb7c-7ad5-49cf-a9b9-34193e601cc1.mp4).
+
+### Not working framedata overlay
 
 If framedata and/or hitboxes don't show up but game information and throw counter work, check that your rendering scale is set to 100.
 Tekken 7 Main menu → Settings → Graphics Settings → Rendering Scale → Set to 100
