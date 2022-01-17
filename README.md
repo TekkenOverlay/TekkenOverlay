@@ -33,7 +33,15 @@ Another reason you can get this error is because VC++ Redistributables installed
 
 #### Fix #3
 
-Use a different injector and inject the `tekken-overlay.dll` file into the `TekkenGame-Win64-Shipping.exe` process using that third-party injector, such as [Extreme Injector](https://github.com/master131/ExtremeInjector/releases/latest). [Demonstration video on how to do it](https://user-images.githubusercontent.com/16989713/149813511-1225eb7c-7ad5-49cf-a9b9-34193e601cc1.mp4).
+Use a different injector and inject the `tekken-overlay.dll` file into the `TekkenGame-Win64-Shipping.exe` process using that third-party injector, such as [Extreme Injector](https://github.com/master131/ExtremeInjector/releases/latest). [Demonstration video on how to do it](https://user-images.githubusercontent.com/16989713/149813511-1225eb7c-7ad5-49cf-a9b9-34193e601cc1.mp4). Any other injector capable of working with 64-bit executables should work, too.
+
+#### Fix #4
+
+If neither of the injectors worked and you still can't inject with neither `tekken-overlay-run.exe`, nor a third-party injector, it could be an issue with dependencies on your machine.
+
+Try injecting a [Hello World dll](https://github.com/carterjones/hello-world-dll) using a third-party injector to test that injection works on your machine in general. [Video Demonstration](https://user-images.githubusercontent.com/16989713/149820814-21394c83-0efa-4e68-a79e-388c6d049e51.mp4).
+
+If you get an error injecting the Hello World dll or if you don't see the Hello World message box after injection, then you have some problem on your machine. A possible fix is to install [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/) and [Windows DDK](https://docs.microsoft.com/en-US/windows-hardware/drivers/download-the-wdk#download-icon-step-3-install-windows-11-wdk). Both of these work on Windows 7 - 11 and will install missing dependencies, absence of which could cause the issue.
 
 ### Not working framedata overlay
 
