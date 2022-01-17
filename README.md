@@ -29,7 +29,9 @@ then run the `tekken-overlay-run.exe` file.
 
 #### Fix #2
 
-Another reason you can get this error is because VC++ Redistributables installed on your machine. Install VC++ Redistributables 2015-2019 from [here](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads). 
+Another reason you can get this error is because VC++ Redistributables installed on your machine.
+
+Install VC++ Redistributables 2015-2022 from [here](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads): x86 and x64 downloads.
 
 #### Fix #3
 
