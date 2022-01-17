@@ -45,6 +45,10 @@ Try injecting a [Hello World dll](https://github.com/carterjones/hello-world-dll
 
 If you get an error injecting the Hello World dll or if you don't see the Hello World message box after injection, then you have some problem on your machine. A possible fix is to install [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/) and [Windows DDK](https://docs.microsoft.com/en-US/windows-hardware/drivers/download-the-wdk#download-icon-step-3-install-windows-11-wdk). Both of these work on Windows 7 - 11 and will install missing dependencies, absence of which could cause the issue.
 
+#### Fix #5
+
+Another way to make the overlay work is to use a different injection method: make the overlay the dependency of the game and let the game load the overlay itself each game start. Follow [the wiki article](https://github.com/TekkenOverlay/TekkenOverlay/wiki/Making-the-game-automatically-load-the-overlay-on-the-game-start) on how to do it.
+
 ### Not working framedata overlay
 
 If framedata and/or hitboxes don't show up but game information and throw counter work, check that your rendering scale is set to 100.
