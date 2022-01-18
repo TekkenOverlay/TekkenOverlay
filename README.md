@@ -18,6 +18,14 @@ Run Tekken.
 Problems
 --------
 
+### Searching for process ID... NOT FOUND
+
+#### Fix #1 
+
+If Steam or Tekken with Administrator privileges, you need to also run the `tekken-overlay-run.exe` as Administrator.
+
+If this doesn't work, go over the `Injecting DLL... FAIL!` fixes below.
+
 ### Injecting DLL... FAIL!
 
 #### Fix #1
