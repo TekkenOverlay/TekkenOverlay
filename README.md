@@ -72,7 +72,7 @@ At the end of the day you have to trust our team that we will not put anything m
 
 ### Linux Support
 
-People have reported that the injector doesn't work on Linux and they keep getting the `Injecting DLL... FAIL!` error.[DeadAndRottingSite](https://www.reddit.com/user/DeadAndRottingSite) [have reported on reddit](https://www.reddit.com/r/Tekken/comments/rr7mlz/tekken_7_network_lag_fixes_play_online_with/hqm4uqs/) that you can do this to make it work on Linux:
+People have reported that the injector doesn't work on Linux and they keep getting the `Injecting DLL... FAIL!` error. [DeadAndRottingSite](https://www.reddit.com/user/DeadAndRottingSite) [have reported on reddit](https://www.reddit.com/r/Tekken/comments/rr7mlz/tekken_7_network_lag_fixes_play_online_with/hqm4uqs/) that you can do this to make it work on Linux:
 * Use [Steam Tinker Launch](https://github.com/frostworx/steamtinkerlaunch). Install it depending on your distribution.
 * Set Steam Tinker as a Steam compatibility tool: https://github.com/frostworx/steamtinkerlaunch/wiki/Steam-Compatibility-Tool.
 * Set Tekken to run with it.
