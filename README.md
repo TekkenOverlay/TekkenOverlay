@@ -13,7 +13,7 @@ Download Tekken Overlay.
 [here​​​](https://github.com/TekkenOverlay/TekkenOverlay/releases/latest): Download the top `.zip` file.  
 Extract zip to anywhere: you need to actually extract the `.zip` archive and __not__ just double click it to open it in the explorer.  
 Run `TekkenOverlay.exe`.
-Run Tekken.
+Run Tekken.  
 Once you get to main menu, press F1 to open the main menu.
 
 Problems
